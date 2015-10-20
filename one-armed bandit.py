@@ -1,10 +1,11 @@
 #One-armed bandit
 #Coded in python3
+#Unorganized fun project I had.
 
 from turtle import *
 from time import *
 import random
-import sys
+
 play_again = numinput('Again', 'Would you like to play again? If so write 1')
 
 while play_again == 1:
@@ -37,8 +38,6 @@ while play_again == 1:
     x_one = random.choice(colors)
     x_two = random.choice(colors)
     x_three = random.choice(colors)
-
-    #############----Game code----#############
 
     #box 1
     color('black',x_one)
